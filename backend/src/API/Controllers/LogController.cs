@@ -34,19 +34,20 @@ public class LogController : ControllerBase
 
 
 
-        return CreatedAtAction(nameof(GetLogs), new { id = log.Id }, log);
+        //return CreatedAtAction(nameof(GetLogs), new { id = log.Id }, log);
+        return Ok();
     }
 
-    [HttpGet]
-    public async Task<IActionResult> GetLogs()
-    {
-        // get from database
-        var logs = await _unitOfWork.Logs.GetAllAsync();
-        return Ok(logs);
-    }
+    //[HttpGet]
+    //public async Task<IActionResult> GetLogs()
+    //{
+    //    // get from database
+    //    var logs = await _unitOfWork.Logs.GetAllAsync();
+    //    return Ok(logs);
+    //}
 
     [HttpGet]
-    public async Task<IActionResult> GetFilteredLogs ([FromQuery] DateTime? start, [FromQuery] DateTime? end, [FromQuery] string level)
+    public async Task<IActionResult> GetFilteredLogs ([FromQuery] DateTime? start, [FromQuery] DateTime? end, [FromQuery] string? level)
     {
         // get from database
         var logs = await _unitOfWork.Logs.GetFilteredLogsAsync(start , end , level);

@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\MyCodingSpace\\MyOwnProject\\DistributedLoggingSystem\\",
+  "WorkspaceRootPath": "D:\\MyCodingSpace\\MyOwnProject\\DistributedLoggingSystem\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C9433D2-ED0B-4526-8499-7AE990E7B277}|src\\Domain\\Domain.csproj|d:\\mycodingspace\\myownproject\\distributedloggingsystem\\src\\domain\\logaggregate\\entities\\logentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C9433D2-ED0B-4526-8499-7AE990E7B277}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\logaggregate\\entities\\logentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECD3E215-C3E8-473E-A41D-A1ED6F4C8CF5}|src\\API\\API.csproj|d:\\mycodingspace\\myownproject\\distributedloggingsystem\\backend\\src\\api\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECD3E215-C3E8-473E-A41D-A1ED6F4C8CF5}|src\\API\\API.csproj|solutionrelative:src\\api\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECD3E215-C3E8-473E-A41D-A1ED6F4C8CF5}|src\\API\\API.csproj|d:\\mycodingspace\\myownproject\\distributedloggingsystem\\backend\\src\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECD3E215-C3E8-473E-A41D-A1ED6F4C8CF5}|src\\API\\API.csproj|solutionrelative:src\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 224,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,15 +54,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LogEntry.cs",
-              "DocumentMoniker": "D:\\MyCodingSpace\\MyOwnProject\\DistributedLoggingSystem\\src\\Domain\\LogAggregate\\Entities\\LogEntry.cs",
-              "RelativeDocumentMoniker": "src\\Domain\\LogAggregate\\Entities\\LogEntry.cs",
-              "ToolTip": "D:\\MyCodingSpace\\MyOwnProject\\DistributedLoggingSystem\\src\\Domain\\LogAggregate\\Entities\\LogEntry.cs",
-              "RelativeToolTip": "src\\Domain\\LogAggregate\\Entities\\LogEntry.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MyCodingSpace\\MyOwnProject\\DistributedLoggingSystem\\backend\\src\\API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\API\\Program.cs",
+              "ToolTip": "D:\\MyCodingSpace\\MyOwnProject\\DistributedLoggingSystem\\backend\\src\\API\\Program.cs",
+              "RelativeToolTip": "src\\API\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T19:12:02.271Z",
+              "WhenOpened": "2024-12-16T18:01:21.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LogController.cs",
+              "DocumentMoniker": "D:\\MyCodingSpace\\MyOwnProject\\DistributedLoggingSystem\\backend\\src\\API\\Controllers\\LogController.cs",
+              "RelativeDocumentMoniker": "src\\API\\Controllers\\LogController.cs",
+              "ToolTip": "D:\\MyCodingSpace\\MyOwnProject\\DistributedLoggingSystem\\backend\\src\\API\\Controllers\\LogController.cs",
+              "RelativeToolTip": "src\\API\\Controllers\\LogController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAADwvykAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T20:45:31.854Z",
               "EditorCaption": ""
             }
           ]

@@ -36,3 +36,4 @@ D:\MyCodingSpace\MyOwnProject\DistributedLoggingSystem\backend\src\Infrastructur
 D:\MyCodingSpace\MyOwnProject\DistributedLoggingSystem\backend\src\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 D:\MyCodingSpace\MyOwnProject\DistributedLoggingSystem\backend\src\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
 D:\MyCodingSpace\MyOwnProject\DistributedLoggingSystem\backend\src\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+D:\MyCodingSpace\MyOwnProject\DistributedLoggingSystem\backend\src\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json

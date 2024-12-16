@@ -6,10 +6,16 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class LogService {
-  private apiUrl = 'http://localhost:5000/api/logs';
+  private apiUrl = 'https://localhost:7014/api/logs';
   constructor(private http: HttpClient) {}
 
-  getLogs(): Observable<any> {
-    return this.http.get<any>(this.apiUrl);
+  getLogs(data? : any): Observable<any> {
+    return this.http.get<any>(`${this.apiUrl}/?start=${data?.startDate}&end=${data?.endDate}&level=${data?.level}`);
   }
+
+  addLog(data? : any): Observable<any> {
+    return this.http.post<any>(`${this.apiUrl}` , data)
+  }
+
+  
 }

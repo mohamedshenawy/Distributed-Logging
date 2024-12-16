@@ -15,6 +15,7 @@ namespace Infrastructure.Repositories
                 .Where(log => (!start.HasValue || log.Timestamp >= start)
                            && (!end.HasValue || log.Timestamp <= end)
                            && (string.IsNullOrEmpty(level) || log.LogLevel == level))
+                .OrderByDescending(e=>e.Timestamp)
                 .ToListAsync();
         }
 

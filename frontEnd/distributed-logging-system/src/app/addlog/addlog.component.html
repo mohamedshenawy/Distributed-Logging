@@ -1,8 +1,25 @@
 <form>
-    <div class="form-group">
-        <label for="exampleInputEmail1"></label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-      </div>
-    
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">service name</label>
+    <input type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="" [(ngModel)]="serviceName"
+      [ngModelOptions]="{standalone: true}">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">level</label>
+    <!-- <input type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="" [(ngModel)]="level"
+      [ngModelOptions]="{standalone: true}"> -->
+      <select class="form-control" id="level"  [(ngModel)]="level" [ngModelOptions]="{standalone: true}" >
+        <option value="">All</option>
+        <option value="INFO">INFO</option>
+        <option value="ERROR">ERROR</option>
+        <option value="WARN">WARN</option>
+      </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">message</label>
+    <input type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="" [(ngModel)]="message"
+      [ngModelOptions]="{standalone: true}">
+  </div>
+
+  <button class="btn btn-primary mt-2" (click)="addLog()">Submit</button>
+</form>

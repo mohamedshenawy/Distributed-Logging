@@ -352,3 +352,4 @@ D:\MyCodingSpace\MyOwnProject\DistributedLoggingSystem\backend\src\API\obj\Debug
 D:\MyCodingSpace\MyOwnProject\DistributedLoggingSystem\backend\src\API\obj\Debug\net8.0\API.pdb
 D:\MyCodingSpace\MyOwnProject\DistributedLoggingSystem\backend\src\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 D:\MyCodingSpace\MyOwnProject\DistributedLoggingSystem\backend\src\API\obj\Debug\net8.0\ref\API.dll
+D:\MyCodingSpace\MyOwnProject\DistributedLoggingSystem\backend\src\API\obj\Debug\net8.0\API.sourcelink.json

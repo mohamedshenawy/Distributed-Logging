@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\MyCodingSpace\\MyOwnProject\\DistributedLoggingSystem\\",
+  "WorkspaceRootPath": "D:\\MyCodingSpace\\MyOwnProject\\DistributedLoggingSystem\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ECD3E215-C3E8-473E-A41D-A1ED6F4C8CF5}|src\\API\\API.csproj|d:\\mycodingspace\\myownproject\\distributedloggingsystem\\src\\api\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7C629D9-5070-4FCB-BD98-19BE7341B6D7}|src\\Infrastructure\\Infrastructure.csproj|d:\\mycodingspace\\myownproject\\distributedloggingsystem\\backend\\src\\infrastructure\\repositories\\logrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7C629D9-5070-4FCB-BD98-19BE7341B6D7}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\repositories\\logrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECD3E215-C3E8-473E-A41D-A1ED6F4C8CF5}|src\\API\\API.csproj|d:\\mycodingspace\\myownproject\\distributedloggingsystem\\backend\\src\\api\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECD3E215-C3E8-473E-A41D-A1ED6F4C8CF5}|src\\API\\API.csproj|solutionrelative:src\\api\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECD3E215-C3E8-473E-A41D-A1ED6F4C8CF5}|src\\API\\API.csproj|d:\\mycodingspace\\myownproject\\distributedloggingsystem\\backend\\src\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECD3E215-C3E8-473E-A41D-A1ED6F4C8CF5}|src\\API\\API.csproj|solutionrelative:src\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,12 +59,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LogRepository.cs",
+              "DocumentMoniker": "D:\\MyCodingSpace\\MyOwnProject\\DistributedLoggingSystem\\backend\\src\\Infrastructure\\Repositories\\LogRepository.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Repositories\\LogRepository.cs",
+              "ToolTip": "D:\\MyCodingSpace\\MyOwnProject\\DistributedLoggingSystem\\backend\\src\\Infrastructure\\Repositories\\LogRepository.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Repositories\\LogRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T18:29:34.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MyCodingSpace\\MyOwnProject\\DistributedLoggingSystem\\backend\\src\\API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\API\\Program.cs",
+              "ToolTip": "D:\\MyCodingSpace\\MyOwnProject\\DistributedLoggingSystem\\backend\\src\\API\\Program.cs",
+              "RelativeToolTip": "src\\API\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T18:01:21.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "LogController.cs",
-              "DocumentMoniker": "D:\\MyCodingSpace\\MyOwnProject\\DistributedLoggingSystem\\src\\API\\Controllers\\LogController.cs",
+              "DocumentMoniker": "D:\\MyCodingSpace\\MyOwnProject\\DistributedLoggingSystem\\backend\\src\\API\\Controllers\\LogController.cs",
               "RelativeDocumentMoniker": "src\\API\\Controllers\\LogController.cs",
-              "ToolTip": "D:\\MyCodingSpace\\MyOwnProject\\DistributedLoggingSystem\\src\\API\\Controllers\\LogController.cs",
+              "ToolTip": "D:\\MyCodingSpace\\MyOwnProject\\DistributedLoggingSystem\\backend\\src\\API\\Controllers\\LogController.cs",
               "RelativeToolTip": "src\\API\\Controllers\\LogController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAADwvy4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAADwvzQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T20:45:31.854Z",
               "EditorCaption": ""
